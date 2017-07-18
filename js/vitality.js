@@ -22,6 +22,8 @@ $(document).ready(function() {
         })
         wow.init();
     }
+    $(".phone_number").text("51" +"0.4" + "14.72" + "68");
+    $(".email_address").text("jam" +"myyang" + "@gm" + "ail.com");
 });
 
 (function($) {
@@ -134,4 +136,7 @@ $(document).ready(function() {
         posterType: 'jpg'
     });
 
+
 })(jQuery); // End of use strict
+
+
