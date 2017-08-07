@@ -450,8 +450,8 @@ header.video {
   margin: 1%; }
   .portfolio-grid .mix .portfolio-wrapper {
     position: relative !important;
-    overflow: hidden;
-    cursor: pointer;
+    overflow: hidden;    /*cursor: pointer;*/
+
     background: #222; }
     .portfolio-grid .mix .portfolio-wrapper img {
       position: relative;
@@ -686,8 +686,8 @@ footer.footer {
     border-color: #EF4035;
     background-color: #EF4035; }
 
-button:hover {
-  cursor: pointer; }
+/*button:hover {*/
+  /*cursor: pointer; }*/
 
 .btn-full-width {
   font-size: 26px;

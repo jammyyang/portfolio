@@ -109,32 +109,32 @@ $(document).ready(function() {
         items: 3,
     });
 
-    // Magnific Popup jQuery Lightbox Gallery Settings
-    $('.gallery-link').magnificPopup({
-        type: 'image',
-        gallery: {
-            enabled: true
-        },
-        image: {
-            titleSrc: 'title'
-        }
-    });
-
-    // Magnific Popup Settings
-    $('.mix').magnificPopup({
-        type: 'image',
-        image: {
-            titleSrc: 'title'
-        }
-    });
-
-    // Vide - Video Background Settings
-    $('header.video').vide({
-        mp4: "mp4/camera.mp4",
-        poster: "img/agency/backgrounds/bg-mobile-fallback.jpg"
-    }, {
-        posterType: 'jpg'
-    });
+    // // Magnific Popup jQuery Lightbox Gallery Settings
+    // $('.gallery-link').magnificPopup({
+    //     type: 'image',
+    //     gallery: {
+    //         enabled: true
+    //     },
+    //     image: {
+    //         titleSrc: 'title'
+    //     }
+    // });
+    //
+    // // Magnific Popup Settings
+    // $('.mix').magnificPopup({
+    //     type: 'image',
+    //     image: {
+    //         titleSrc: 'title'
+    //     }
+    // });
+    //
+    // // Vide - Video Background Settings
+    // $('header.video').vide({
+    //     mp4: "mp4/camera.mp4",
+    //     poster: "img/agency/backgrounds/bg-mobile-fallback.jpg"
+    // }, {
+    //     posterType: 'jpg'
+    // });
 
 
 })(jQuery); // End of use strict
